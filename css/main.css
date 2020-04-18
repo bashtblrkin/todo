@@ -1,0 +1,39 @@
+body {
+  background-color: #E4E5E7;
+  
+}
+.header{
+  margin-top: 100px;
+}
+.aside {
+  height: 400px;
+}
+.main {
+  height: 400px;
+}
+.d-flex {
+  display: flex;
+}
+.task-title {
+  font-weight: 400;
+  padding-top: 5px;
+}
+.task-title--done {
+  color: #c7c7c7;
+  text-decoration: line-through;
+}
+.notifyHolder {
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  top: 20px;
+}
+.notify{
+  margin-top: 20px;
+  padding: 0;
+  margin-bottom: 0;
+}
+.alert {
+  transition: opacity 0.2s ease-in;
+  opacity: 0;
+}
